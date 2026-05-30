@@ -88,7 +88,7 @@ export default function Home() {
         </h1>
 
         <h2 className="text-2xl text-slate-300 mb-6">
-          Backend Engineer | Java | Spring Boot | Kafka
+          Backend Engineer | Java | Spring Boot | Microservices | Problem Solving 
         </h2>
 
         <p className="max-w-3xl mx-auto text-slate-400 text-lg">
