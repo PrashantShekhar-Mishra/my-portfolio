@@ -103,21 +103,21 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/"
+            href="https://github.com/PrashantShekhar-Mishra/"
             className="px-6 py-3 border border-slate-700 rounded-lg"
           >
             GitHub
           </a>
 
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/prashant-shekhar-mishra/"
             className="px-6 py-3 border border-slate-700 rounded-lg"
           >
             LinkedIn
           </a>
 
           <a
-            href="https://leetcode.com/"
+            href="https://leetcode.com/u/prashantsmishra024"
             className="px-6 py-3 border border-slate-700 rounded-lg"
           >
             LeetCode
@@ -147,9 +147,9 @@ export default function Home() {
         <h2 className="text-4xl font-bold mb-8">About Me</h2>
 
         <p className="text-slate-300 leading-8 text-lg">
-          I design and build scalable backend systems using Java, Spring Boot,
-          Kafka, Redis, and cloud technologies. I specialize in distributed systems,
-          event-driven architectures, and enterprise integrations.
+          I am a Backend Engineer with 4+ years of experience designing and
+          developing scalable, high-performance distributed systems using
+          Java, Spring Boot, Kafka, and cloud technologies.
         </p>
       </section>
 
