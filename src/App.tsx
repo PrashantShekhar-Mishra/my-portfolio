@@ -100,15 +100,15 @@ const experiences = [
         <h2 className="text-2xl text-slate-300 mb-6">
           Backend Engineer | Java | Spring Boot | Microservices | Problem Solving 
         </h2>
-        <p className="text-slate-300 leading-8 text-lg">
-          Backend Software Engineer with 4+ years of experience building scalable
-          enterprise applications and distributed systems using Java, Spring Boot,
-          Microservices, Kafka, and Cloud technologies. Currently contributing to
-          cross-border payment and financial messaging solutions at Infosys, with
-          expertise in event-driven architectures, API development, performance
-          optimization, and production reliability. Committed to delivering robust,
-          maintainable, and high-impact software solutions that drive business value.
-        </p>
+       <p className="max-w-3xl mx-auto text-slate-400 text-lg leading-relaxed">
+        Backend Software Engineer with 4+ years of experience building scalable
+        enterprise applications and distributed systems using Java, Spring Boot,
+        Microservices, Kafka, and Cloud technologies.
+        <br />
+        <br />
+        Currently working at Infosys on cross-border payment and financial messaging
+        systems with SWIFT CBPR+ compliance.
+      </p>
         <div className="mt-10 flex justify-center gap-4 flex-wrap">
         <a
           href="https://drive.google.com/file/d/1YcUtk05svzu7BlDL-e3bJMxPUVR7SfZU/view?usp=drive_link"
@@ -152,14 +152,16 @@ const experiences = [
       <section className="max-w-6xl mx-auto px-6 py-10">
         <div className="grid md:grid-cols-4 gap-6">
           {[
-            [["4+", "Years Experience"],
-            ["500+", "DSA Problems Solved"],
-            ["99.9%", "Service Availability"],
-            ["10+", "Microservices Delivered"]
-          ],
+            ["4+", "Years Experience"],
+            ["500+", "DSA Problems"],
+            ["99.9%", "System Availability"],
+            ["10+", "Microservices Delivered"],
           ].map(([value, label]) => (
-            <div key={label} className="bg-slate-900 p-6 rounded-xl text-center">
-              <h3 className="text-4xl font-bold">{value}</h3>
+            <div
+              key={label}
+              className="bg-slate-900 p-6 rounded-xl text-center border border-slate-800 hover:border-cyan-500 transition"
+            >
+              <h3 className="text-4xl font-bold text-cyan-400">{value}</h3>
               <p className="text-slate-400 mt-2">{label}</p>
             </div>
           ))}
