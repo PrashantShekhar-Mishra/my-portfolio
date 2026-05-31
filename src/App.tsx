@@ -98,7 +98,7 @@ const experiences = [
         </h1>
 
         <h2 className="text-2xl text-slate-300 mb-6">
-          Backend Engineer | Java | Spring Boot | Microservices | Problem Solving 
+          Backend Engineer | Java • Spring Boot • Microservices • Kafka • AWS 
         </h2>
        <p className="max-w-3xl mx-auto text-slate-400 text-lg leading-relaxed">
         Backend Software Engineer with 4+ years of experience building scalable
