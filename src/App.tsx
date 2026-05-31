@@ -129,6 +129,13 @@ const experiences = [
           >
             LeetCode
           </a>
+
+          <a
+            href="https://www.hackerrank.com/profile/prashantsmishra1"
+            className="px-6 py-3 border border-slate-700 rounded-lg"
+          >
+            HackerRank
+          </a>
         </div>
       </section>
 
@@ -214,22 +221,36 @@ const experiences = [
       </section>
 
       {/* CERTIFICATIONS */}
-      <section className="max-w-6xl mx-auto px-6 py-20">
-        <h2 className="text-4xl font-bold mb-10">Certifications</h2>
+      {/* CERTIFICATIONS */}
+<section className="max-w-6xl mx-auto px-6 py-20">
+  <h2 className="text-4xl font-bold mb-10">Certifications</h2>
 
-        <div className="grid md:grid-cols-2 gap-4">
-          {[
-            "Microsoft Azure Fundamentals (AZ-900)",
-            "HackerRank Java",
-            "HackerRank SQL",
-            "Problem Solving Certification",
-          ].map((cert) => (
-            <div key={cert} className="bg-slate-900 p-5 rounded-lg">
-              {cert}
-            </div>
-          ))}
+  <div className="grid md:grid-cols-2 gap-4">
+    {[
+      {
+        name: "Microsoft Azure Fundamentals (AZ-900)",
+        link: "https://www.credly.com/badges/77c44fa6-06d4-47bc-9279-3fa520384d3a/public_url",
+      },
+      {
+        name: "HackerRank",
+        link: "https://www.hackerrank.com/profile/prashantsmishra1",
+      }
+    ].map((cert) => (
+      <a
+        key={cert.name}
+        href={cert.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-slate-900 p-5 rounded-lg hover:bg-slate-800 transition duration-300 block"
+      >
+        <div className="flex items-center justify-between">
+          <span>{cert.name}</span>
+          <span className="text-blue-400">↗</span>
         </div>
-      </section>
+      </a>
+    ))}
+  </div>
+</section>
 
       {/* CONTACT */}
       <section className="max-w-6xl mx-auto px-6 py-20">
