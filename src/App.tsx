@@ -3,55 +3,63 @@ export default function Home() {
     "Java",
     "Spring Boot",
     "J2EE",
+    "Event-Driven Architecture",
+    "Problem Solving",
+    "ELK Stack",
+    "Drools",
     "Kafka",
     "IBM MQ",
     "Redis",
     "Docker",
     "Kubernetes",
-    "AWS( RDS, S3, Ec2, Route53, CloudWatch )",
     "Microservices",
     "System Design",
     "PostgreSQL",
     "MySQL",
     "MongoDB",
+    "NoSQL",
+    "AWS( RDS, S3, Ec2, Route53, CloudWatch )",
   ];
 
-  const experiences = [
-    {
-      company: "Infosys",
-      role: "Associate Consultant",
-      period: "Aug 2025 - Present",
-      points: [
-        "Worked on enterprise-scale payment processing and messaging systems for cross-border transactions.",
-        "Developed Spring Boot microservices supporting high-volume payment routing workflows with 99.9% availability.",
-        "Designed event-driven architectures using Kafka and IBM MQ for reliable asynchronous processing.",
-        "Implemented SWIFT CBPR+ validation and transformation services achieving 95%+ compliance accuracy.",
-        "Collaborated with architects and business teams to deliver scalable production-ready solutions.",
-      ],
-    },
-    {
-      company: "Persistent Systems",
-      role: "Senior Software Engineer",
-      period: "Jul 2024 - Jul 2025",
-      points: [
-        "Migrated monolithic applications to microservices.",
-        "Implemented API rate limiting.",
-        "Integrated Twilio notification services.",
-        "Improved observability and production monitoring.",
-      ],
-    },
-    {
-      company: "Persistent Systems",
-      role: "Software Engineer",
-      period: "Jun 2022 - Jun 2024",
-      points: [
-        "Implemented Redis and Memcached caching.",
-        "Reduced API latency and database load.",
-        "Increased automated test coverage to 80%+.",
-        "Supported high-availability production systems.",
-      ],
-    },
-  ];
+const experiences = [
+  {
+    company: "Infosys",
+    role: "Associate Consultant",
+    period: "Aug 2025 - Present",
+    points: [
+      "Developed scalable Spring Boot microservices for payment message routing systems handling high-volume transaction workflows with 99.9% availability.",
+      "Designed event-driven architecture using Apache Kafka and IBM MQ, improving asynchronous processing reliability and system consistency.",
+      "Implemented SWIFT CBPR+ structured address validation and transformation workflows, achieving 95%+ compliance accuracy in cross-border payments.",
+      "Collaborated with architects, QA, and business teams during requirement analysis, solution design, and production deployment cycles.",
+      "Documented microservices architecture, APIs, and deployment processes in Confluence to improve cross-team knowledge sharing and operational readiness.",
+      "Contributed to production debugging, incident resolution, and service reliability improvements.",
+    ],
+  },
+  {
+    company: "Persistent Systems",
+    role: "Senior Software Engineer",
+    period: "Jul 2024 - Jul 2025",
+    points: [
+      "Refactored monolithic backend systems into scalable microservices, improving maintainability, fault isolation, and deployment flexibility.",
+      "Worked on SmartBear AlertSite, delivering backend enhancements for observability, notifications, and API reliability.",
+      "Implemented API rate limiting mechanisms, improving system stability under high-traffic conditions.",
+      "Integrated Twilio (WhatsApp & SMS) for notification workflows, improving alert delivery reliability for critical events.",
+      "Integrated BugSnag for centralized error tracking and production monitoring, improving incident detection and debugging speed.",
+      "Contributed to CI/CD pipelines using Docker, Git, and Maven for streamlined and consistent deployments.",
+    ],
+  },
+  {
+    company: "Persistent Systems",
+    role: "Software Engineer",
+    period: "Jun 2022 - Jun 2024",
+    points: [
+      "Implemented Redis and Memcached caching strategies, reducing database load by 30% and improving API latency.",
+      "Increased automated test coverage to 80%+ using JUnit and Mockito, improving release stability and reducing production defects.",
+      "Monitored production systems and resolved incidents to maintain high availability and system performance.",
+      "Participated in Agile ceremonies including sprint planning, estimation, and feature delivery with cross-functional teams.",
+    ],
+  },
+];
 
   const projects = [
     {
@@ -100,9 +108,6 @@ export default function Home() {
         </p>
 
         <div className="mt-10 flex justify-center gap-4 flex-wrap">
-          <a className="px-6 py-3 bg-white text-black rounded-lg font-semibold">
-            Download Resume
-          </a>
 
           <a
             href="https://github.com/PrashantShekhar-Mishra/"
