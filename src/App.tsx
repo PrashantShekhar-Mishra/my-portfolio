@@ -100,11 +100,29 @@ const experiences = [
         <h2 className="text-2xl text-slate-300 mb-6">
           Backend Engineer | Java | Spring Boot | Microservices | Problem Solving 
         </h2>
+        <p className="max-w-3xl mx-auto text-slate-400 text-lg leading-relaxed">
+          I'm a Backend Software Engineer with 4+ years of experience building
+          scalable, high-performance applications using Java, Spring Boot, and
+          microservices architecture. Currently, I work as an Associate Consultant
+          at Infosys, developing enterprise payment messaging solutions that support
+          cross-border transactions and SWIFT CBPR+ compliance.
 
-        <p className="max-w-3xl mx-auto text-slate-400 text-lg">
-          Backend Engineer with 4+ years of experience building scalable
-          microservices, distributed systems, and enterprise-grade backend
-          applications.
+          <br />
+          <br />
+
+          My expertise includes distributed systems, event-driven architectures with
+          Kafka and IBM MQ, REST APIs, caching technologies, and cloud-native
+          development. Throughout my career at Infosys and Persistent Systems, I've
+          helped modernize legacy applications, improve system reliability, optimize
+          performance, and deliver production-ready solutions for enterprise clients.
+
+          <br />
+          <br />
+
+          I enjoy solving complex engineering challenges, designing maintainable
+          backend systems, and continuously learning new technologies. I'm passionate
+          about building reliable software that scales efficiently while maintaining
+          security, performance, and operational excellence.
         </p>
 
         <div className="mt-10 flex justify-center gap-4 flex-wrap">
@@ -161,10 +179,14 @@ const experiences = [
         <h2 className="text-4xl font-bold mb-8">About Me</h2>
 
         <p className="text-slate-300 leading-8 text-lg">
-          I am a Backend Engineer with 4+ years of experience designing and
-          developing scalable, high-performance distributed systems using
-          Java, Spring Boot, Kafka, and cloud technologies.
-        </p>
+        Backend Software Engineer with 4+ years of experience building scalable
+        enterprise applications and distributed systems using Java, Spring Boot,
+        Microservices, Kafka, and Cloud technologies. Currently contributing to
+        cross-border payment and financial messaging solutions at Infosys, with
+        expertise in event-driven architectures, API development, performance
+        optimization, and production reliability. Committed to delivering robust,
+        maintainable, and high-impact software solutions that drive business value.
+      </p>
       </section>
 
       {/* SKILLS */}
