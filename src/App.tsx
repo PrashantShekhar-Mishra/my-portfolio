@@ -172,7 +172,7 @@ const experiences = [
       <section className="max-w-6xl mx-auto px-6 py-20">
         <h2 className="text-4xl font-bold mb-8">About Me</h2>
 
-      <p className="max-w-3xl mx-auto text-slate-400 text-lg leading-relaxed">
+      <p className="max-w-3xl text-slate-400 text-lg leading-relaxed">
           I'm a Backend Software Engineer with 4+ years of experience building
           scalable, high-performance applications using Java, Spring Boot, and
           microservices architecture. Currently, I work as an Associate Consultant
