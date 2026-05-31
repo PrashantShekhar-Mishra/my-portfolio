@@ -170,35 +170,35 @@ const experiences = [
 
       {/* ABOUT */}
       <section className="max-w-6xl mx-auto px-6 py-20">
-        <h2 className="text-4xl font-bold mb-8">About Me</h2>
+        <h2 className="text-4xl font-bold mb-10 text-center">
+          About Me
+        </h2>
 
-      <p className="max-w-3xl text-slate-400 text-lg leading-relaxed">
-          I'm a Backend Software Engineer with 4+ years of experience building
-          scalable, high-performance applications using Java, Spring Boot, and
-          microservices architecture. Currently, I work as an Associate Consultant
-          at Infosys, developing enterprise payment messaging solutions that support
-          cross-border transactions and SWIFT CBPR+ compliance.
+        <div className="max-w-3xl mx-auto">
+          <p className="text-slate-400 text-lg leading-relaxed text-left">
+            I'm a Backend Software Engineer with 4+ years of experience building
+            scalable, high-performance applications using Java, Spring Boot, and
+            microservices architecture. Currently, I work as an Associate Consultant
+            at Infosys, developing enterprise payment messaging solutions that support
+            cross-border transactions and SWIFT CBPR+ compliance.
 
-          <br />
-          <br />
+            <br /><br />
 
-          My expertise includes distributed systems, event-driven architectures with
-          Kafka and IBM MQ, REST APIs, caching technologies, and cloud-native
-          development. Throughout my career at Infosys and Persistent Systems, I've
-          helped modernize legacy applications, improve system reliability, optimize
-          performance, and deliver production-ready solutions for enterprise clients.
+            My expertise includes distributed systems, event-driven architectures with
+            Kafka and IBM MQ, REST APIs, caching technologies, and cloud-native
+            development. Throughout my career at Infosys and Persistent Systems, I've
+            helped modernize legacy applications, improve system reliability, optimize
+            performance, and deliver production-ready solutions for enterprise clients.
 
-          <br />
-          <br />
+            <br /><br />
 
-          I enjoy solving complex engineering challenges, designing maintainable
-          backend systems, and continuously learning new technologies. I'm passionate
-          about building reliable software that scales efficiently while maintaining
-          security, performance, and operational excellence.
-        </p>
-
+            I enjoy solving complex engineering challenges, designing maintainable
+            backend systems, and continuously learning new technologies. I'm passionate
+            about building reliable software that scales efficiently while maintaining
+            security, performance, and operational excellence.
+          </p>
+        </div>
       </section>
-
       {/* SKILLS */}
       <section className="max-w-6xl mx-auto px-6 py-20">
         <h2 className="text-4xl font-bold mb-10">Skills</h2>
